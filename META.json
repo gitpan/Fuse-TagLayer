@@ -1,0 +1,55 @@
+{
+   "abstract" : "tag-filesystem overlay for hierarchical fs",
+   "author" : [
+      "Clipland (clipland@cpan.org)"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Fuse-TagLayer",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : 0
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "DBI" : 0,
+            "Data::Dumper" : 0,
+            "Fcntl" : 0,
+            "File::Basename" : 0,
+            "File::ExtAttr" : "1.09",
+            "File::Find" : 0,
+            "Fuse" : "0.14",
+            "Getopt::Long" : 0,
+            "POSIX" : 0,
+            "Pod::Usage" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "url" : "https://github.com/clipland/fuse-taglayer"
+      }
+   },
+   "version" : "0.09"
+}
