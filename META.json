@@ -1,12 +1,12 @@
 {
-   "abstract" : "tag-filesystem overlay for hierarchical fs",
+   "abstract" : "Tag-filesystem overlay for hierarchical fs",
    "author" : [
       "Clipland (clipland@cpan.org)"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621",
    "license" : [
-      "unknown"
+      "open_source"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -51,5 +51,5 @@
          "url" : "https://github.com/clipland/fuse-taglayer"
       }
    },
-   "version" : "0.09"
+   "version" : "0.10"
 }
