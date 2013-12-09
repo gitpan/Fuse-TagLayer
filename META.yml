@@ -1,5 +1,5 @@
 ---
-abstract: 'Tag-filesystem overlay for hierarchical fs'
+abstract: 'A read-only tag-filesystem overlay for hierarchical filesystems'
 author:
   - 'Clipland (clipland@cpan.org)'
 build_requires:
@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621'
+generated_by: 'ExtUtils::MakeMaker version 6.84, CPAN::Meta::Converter version 2.132830'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,7 +18,6 @@ no_index:
     - t
     - inc
 requires:
-  DBI: 0
   Data::Dumper: 0
   Fcntl: 0
   File::Basename: 0
@@ -28,6 +27,6 @@ requires:
   Getopt::Long: 0
   POSIX: 0
   Pod::Usage: 0
-resources:
-  repository: https://github.com/clipland/fuse-taglayer
-version: 0.10
+  perl: 5.004
+resources: {}
+version: 0.12

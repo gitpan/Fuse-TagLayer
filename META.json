@@ -1,10 +1,10 @@
 {
-   "abstract" : "Tag-filesystem overlay for hierarchical fs",
+   "abstract" : "A read-only tag-filesystem overlay for hierarchical filesystems",
    "author" : [
       "Clipland (clipland@cpan.org)"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "ExtUtils::MakeMaker version 6.84, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "open_source"
    ],
@@ -22,34 +22,30 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
          "requires" : {
-            "DBI" : 0,
-            "Data::Dumper" : 0,
-            "Fcntl" : 0,
-            "File::Basename" : 0,
+            "Data::Dumper" : "0",
+            "Fcntl" : "0",
+            "File::Basename" : "0",
             "File::ExtAttr" : "1.09",
-            "File::Find" : 0,
+            "File::Find" : "0",
             "Fuse" : "0.14",
-            "Getopt::Long" : 0,
-            "POSIX" : 0,
-            "Pod::Usage" : 0
+            "Getopt::Long" : "0",
+            "POSIX" : "0",
+            "Pod::Usage" : "0",
+            "perl" : "5.004"
          }
       }
    },
    "release_status" : "stable",
-   "resources" : {
-      "repository" : {
-         "url" : "https://github.com/clipland/fuse-taglayer"
-      }
-   },
-   "version" : "0.10"
+   "resources" : {},
+   "version" : "0.12"
 }
